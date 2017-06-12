@@ -6,9 +6,3 @@
 - 具体的请clone项目，使用idea直接打开查看即可；
 
 
-# Demo截图
-
-![](https://raw.githubusercontent.com/Cenyol/SpringMVC/master/images/list.jpg)
-![](https://raw.githubusercontent.com/Cenyol/SpringMVC/master/images/add.jpg)
-![](https://raw.githubusercontent.com/Cenyol/SpringMVC/master/images/update.jpg)
-![](https://raw.githubusercontent.com/Cenyol/SpringMVC/master/images/view.jpg)

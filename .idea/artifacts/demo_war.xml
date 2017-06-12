@@ -3,6 +3,11 @@
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="example.war">
       <element id="artifact" artifact-name="demo:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="jpa-descriptors" facet="demo/jpa/JPA" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

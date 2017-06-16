@@ -2,18 +2,21 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
     <persistence-unit name="defaultPersistenceUnit"  transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>com.cenyol.example.model.TblAboutEntity</class>
+        <class>com.cenyol.example.model.TblBlogEntity</class>
+        <class>com.cenyol.example.model.TblContactEntity</class>
         <properties>
             <!-- 使用MySQL方言 -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
             <!-- 数据库连接的URL地址 -->
             <property name="hibernate.connection.url"
-                      value="jdbc:mysql://localhost:3306/myblog"/>
+                      value="jdbc:mysql://39.108.11.70:3306/myblog"/>
             <!-- 数据库连接的驱动 -->
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
             <!-- 数据库连接的用户名 -->
-            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.username" value="wdy"/>
             <!-- 数据库连接的密码 -->
-            <property name="hibernate.connection.password" value="wandeying"/>
+            <property name="hibernate.connection.password" value="password"/>
             <!-- 显示SQL语句 -->
             <property name="hibernate.show_sql" value="true"/>
 
